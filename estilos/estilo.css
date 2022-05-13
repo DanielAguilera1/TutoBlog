@@ -7,6 +7,26 @@ body{
     padding: 0;
 }
 
+.cabecera{
+    height: 2em;
+    background: #33a;
+    color: white;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0.5em;
+}
+
+#tutoblog{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#spanline{   
+    font-weight: normal;
+    font-size: 15px;
+    padding: 0 0 0 1em;
+}
+
 .contenedor{
     width: 70%;
     padding: 1em;
