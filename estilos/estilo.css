@@ -2,32 +2,43 @@ body{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
+    background-color: #1e1f24;
     font-size: 16px;
     margin: 0;
     padding: 0;
 }
 
 .cabecera{
-    height: 2em;
-    background: #33a;
+    height: 100%;
+    background: rgb(54, 135, 138);
     color: white;
     box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
-    margin: 0;
-    padding: 0.5em;
+    vertical-align: middle;
+}
+
+.cabecera .img-logo{
+    height: 44px;
+    width: 46px;
+    padding-left: 0.5em;
+    vertical-align: middle;
 }
 
 #tutoblog{
+    vertical-align: middle;
+    padding-left: 0.5em;
     font-weight: bold;
     font-size: 24px;
 }
 
 #spanline{   
+    vertical-align: middle;
     font-weight: normal;
     font-size: 15px;
     padding: 0 0 0 1em;
 }
 
 .contenedor{
+    background-color: white;
     width: 70%;
     padding: 1em;
     text-align: left;
@@ -38,7 +49,7 @@ body{
 }
 
 .post{
-    font-size: 19px;
+    font-size: 22px;
 }
 
 .container h1{
